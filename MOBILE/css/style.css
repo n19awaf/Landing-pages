@@ -59,3 +59,47 @@ header.header .overlay .header-img img {
     position: absolute;
     bottom: -210px;
 }
+
+section.feature {
+    padding: 80px 0;
+    background-color: #fff;
+    position: relative;
+}
+section.feature .features{
+    margin-top: 90px;
+}
+section.feature .features.text-left {
+    direction: ltr;
+}
+
+section.feature .features .d-flex{
+    margin-bottom: 70px;
+}
+
+section.feature .features .d-flex .flex-shrink-0 i {
+    width: 90px;
+    height: 90px;
+    line-height: 70px;
+    color: #fff;
+    background-color: #ef473a;
+    text-align: center;
+    display: block;
+    border-radius: 2px;
+
+}
+
+section.feature .features .d-flex h5{
+    font-size: 24px;
+    color: #080808;
+    margin-bottom: 12px;
+}
+
+section.feature .features .d-flex p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #757474;
+}
+
+section.feature .feature-img img {
+    width: 80%;
+}
