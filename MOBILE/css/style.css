@@ -136,3 +136,16 @@ section.option .option-img {
     position: absolute;
     bottom: -150;
 }
+
+section.slider {
+    background-color: #fff;
+    padding: 80px 0;
+    position: relative;
+}
+
+section.slider .slider-text h3{
+    font-size: 36px;
+    color: #141414;
+    margin-bottom: 60px;
+
+}
