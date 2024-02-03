@@ -192,3 +192,48 @@ section.faq .overlay {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 70px 0;
 }
+
+section.faq .overlay .faq-title h3 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+section.faq .overlay .accordion .accordion-item {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-bottom: 25px;
+    border: 0;
+    border-radius: 0;
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-header button{
+    background-color: transparent;
+    font-size: 18px;
+    color: #fff;
+    border-bottom: 0;
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-header button::after{
+    content: none;
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-header button i{
+    margin-right: auto;
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-header button.collapsed i {
+    transform: rotate(180deg);
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-header button:focus{
+    border-color: transparent;
+    box-shadow: 0 0 0 0;
+
+}
+
+section.faq .overlay .accordion .accordion-body p{
+    font-size: 18px;
+    line-height: 20px;
+    color: #c9c9c9;
+}
