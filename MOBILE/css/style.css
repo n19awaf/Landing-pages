@@ -180,3 +180,15 @@ section.slider .slider-carousel .carousel-indicators button{
 section.slider .slider-carousel .carousel-indicators button.active{
     background-color: #ef473a;
 }
+
+section.faq {
+    background-image: url(../images/bg-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.faq .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 70px 0;
+}
