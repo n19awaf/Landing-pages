@@ -237,3 +237,56 @@ section.faq .overlay .accordion .accordion-body p{
     line-height: 20px;
     color: #c9c9c9;
 }
+
+footer.footer {
+    background-color: #232323;
+    padding-top: 70px;
+}
+
+footer.footer .top-footer {
+    border-bottom: 2px solid #292828;
+    padding-bottom: 90px;
+}
+
+footer.footer .top-footer .widget h4 {
+    font-size: 24px;
+    color: #f4f8fb;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #292828;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+footer.footer .top-footer .widget h4::after{
+    content: "";
+    width: 90px;
+    height: 2px;
+    background-color: #ef473a;
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+}
+
+footer.footer .top-footer .widget p.aboutus-p{
+    font-size: 18px;
+    line-height: 40px;
+    color: #757474;
+    margin-bottom: 100px;
+
+}
+
+footer.footer .top-footer .widget li.list-inline-item a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #353638;
+    color: #fff;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .5s ease;
+}
+
+footer.footer .top-footer .widget li.list-inline-item a:hover {
+    background-color: #ef473a;
+}
