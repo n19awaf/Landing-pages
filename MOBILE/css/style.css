@@ -290,3 +290,26 @@ footer.footer .top-footer .widget li.list-inline-item a {
 footer.footer .top-footer .widget li.list-inline-item a:hover {
     background-color: #ef473a;
 }
+
+footer.footer .top-footer .widget ul.tweets {
+    list-style: none;
+    padding: 0;
+}
+
+footer.footer .top-footer .widget ul.tweets li:not(:last-child) {
+    padding-top: 20px;
+    margin-top: 20px;
+    border-bottom: 2px solid #292828;
+}
+
+footer.footer .top-footer .widget ul.tweets li p {
+    font-size: 15px;
+    color: #757474;
+    line-height: 24px;
+    display: inline;
+    margin-right: 5px;
+}
+
+footer.footer .top-footer .widget ul.tweets li i {
+    color: #ef473a;
+}
