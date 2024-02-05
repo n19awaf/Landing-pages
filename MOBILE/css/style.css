@@ -313,3 +313,28 @@ footer.footer .top-footer .widget ul.tweets li p {
 footer.footer .top-footer .widget ul.tweets li i {
     color: #ef473a;
 }
+
+footer.footer .top-footer .widget form input {
+    font-size: 14px;
+    color: #c6c6c6;
+    line-height: 25px;
+    border: 0;
+    margin-bottom: 15px;
+    background-color: #2c2b2b;
+    text-align: right;
+    border-radius: 0;
+}
+
+
+footer.footer .top-footer .widget form button {
+    background-color: #ef473a;
+    border-radius: 0;
+    font-size: 14px;
+    color: #fff;
+    line-height: 25px;
+}
+
+footer.footer .top-footer .widget form .invalid-feedback {
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
