@@ -345,3 +345,55 @@ footer.footer .copyright{
     line-height: 75px;
     text-align: center;
 }
+
+
+
+@media (max-width: 992px) and (min-width: 768px) {
+    header.header .overlay{
+        padding: 0;
+    }
+
+    header.header .overlay .header-img img {
+        right: 50px;
+    }
+
+    section.feature .features .d-flex {
+        margin-bottom: 40px;
+    }
+
+    section.feature .features .d-flex h5 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    section.feature .features .d-flex p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    section.feature .feature-img img  {
+        margin-top: 80px;
+    }
+
+    section.option {
+        padding-top: 50px;
+    }
+
+    section.option .option-img{
+        top: 50px;
+        right: 50px;
+    }
+
+    section.option .option-img img {
+        width: 75%;
+    }
+
+    section.slider .slider-carousel .carousel-control-prev,
+    section.slider .slider-carousel .carousel-control-next {
+        margin-top: 60px;
+    }
+
+    footer.footer .top-footer .widget li.list-inline-item a {
+        margin-bottom: 20px;
+    }
+}
