@@ -102,3 +102,52 @@ header.header .overlay a.cv {
     margin-bottom: 40px;
 }
 
+section.licence {
+    padding: 200px 0 80px;
+    background-color: #f6fbff;
+}
+
+section.licence .licence-title {
+    padding-bottom: 30px;
+    position: relative;
+}
+
+section.licence .licence-title h2 {
+    font-size: 30px;
+    line-height: 50px;
+    color: #196dd1;
+}
+
+section.licence .licence-title h2::after {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #196dd1;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+section.licence .licence-title h2 i {
+    display: block;
+}
+
+section.licence ul.timeline {
+    padding-right: 0;
+    padding-top: 45px;
+    list-style: none;
+    position: relative;
+}
+
+section.licence ul.timeline::before {
+    content: "";
+    width: 2px;
+    height: 75%;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    background-color: #196dd1;
+    transform: translateX(50%);
+}
+
