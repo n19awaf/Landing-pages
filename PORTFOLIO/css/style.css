@@ -228,5 +228,24 @@ section.licence ul.timeline li:nth-child(even) .timebox h4 span {
     margin-right: 25px;
 }
 
+section.statistics {
+    background-image: url(../images/bg-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
+section.statistics .overlay {
+    background-color: rgba(5, 117, 230, 0.7);
+    padding: 150px 0;
+}
+
+
+section.statistics .overlay .stat p {
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
 
