@@ -249,3 +249,22 @@ section.statistics .overlay .stat p {
     font-family: sans-serif;
 }
 
+section.statistics .overlay .stat .circle canvas {
+    background-color: #eef6ff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+section.statistics .overlay .stat .circle {
+    position: relative;
+}
+
+section.statistics .overlay .stat .circle span {
+    position: absolute;
+    color: #0575e6;
+    font-size: 24px;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+
+}
