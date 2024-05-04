@@ -266,5 +266,30 @@ section.statistics .overlay .stat .circle span {
     top: 50%;
     right: 50%;
     transform: translate(50%, -50%);
+}
 
+section.gallery {
+    padding: 75px 0 90px;
+}
+
+section.gallery .gallery-title {
+    margin-bottom: 35px;
+}
+
+section.gallery .gallery-title h2 {
+    font-size: 30px;
+    line-height: 50px;
+    color: #0575e6;
+}
+
+section.gallery .gallery-work label {
+    font-size: 18px;
+    line-height: 35px;
+    color: #8f9899;
+    padding: 10px 30px;
+    background-color: #fff;
+    border: 2px solid #e4eeee;
+    border-radius: 2px;
+    cursor: pointer;
+    
 }
