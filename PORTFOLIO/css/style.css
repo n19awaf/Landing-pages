@@ -291,5 +291,21 @@ section.gallery .gallery-work label {
     border: 2px solid #e4eeee;
     border-radius: 2px;
     cursor: pointer;
+    margin: 0 7px 40px;
+    transition: all 0.5s ease;
+}
+
+section.gallery .gallery-work label:hover {
+    color: #fff;
+    background-color: #0575e6;
+    border: 2px solid #0575e6;
+}
+
+section.gallery .gallery-work .items .item {
+    margin-bottom: 25px;
+}
+
+section.gallery .gallery-work input.item-type-1:checked {
     
+
 }
