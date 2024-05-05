@@ -305,7 +305,15 @@ section.gallery .gallery-work .items .item {
     margin-bottom: 25px;
 }
 
-section.gallery .gallery-work input.item-type-1:checked {
-    
+section.gallery .gallery-work input.item-type-1:checked~label.label-type-1,
+section.gallery .gallery-work input.item-type-2:checked~label.label-type-2,
+section.gallery .gallery-work input.item-type-3:checked~label.label-type-3,
+section.gallery .gallery-work input.item-type-all:checked~label.label-type-all {
+    color: #fff;
+    background-color: #0575e6;
+    border: 2px solid #0575e6;
+}
 
+section.gallery .gallery-work input.item-type-1:checked~.items .item-type-1{
+    transform: scale(1.08);
 }
