@@ -331,6 +331,7 @@ section.gallery .gallery-work input.item-type-3:checked~.items .item:not(.item-t
 }
 
 
+/*أراء العملاء*/
 section.contacts {
     background-image: url(../images/bg-3.jpg);
     background-position: center;
