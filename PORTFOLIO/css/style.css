@@ -461,6 +461,16 @@ section.contacts .overlay .contact-info .contact-form .col-sm-6 {
 }
 
 section.contacts .overlay .contact-info .contact-form .col-sm-6::before {
-    font-family: "Font Awesome 5 fre";
+    font-family: "Font Awesome 5 free";
+    position:absolute;
+    top: 0;
+    right: 0;
+    font-size: 18px;
+    line-height: 25px;
+    color: #0575e6;
+    font-weight: 900;
+}
 
+section.contacts .overlay .contact-info .contact-form .col-sm-6:first-child::before{
+    
 }
