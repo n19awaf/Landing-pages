@@ -459,3 +459,8 @@ section.contacts .overlay .contact-info .contact-form textarea {
 section.contacts .overlay .contact-info .contact-form .col-sm-6 {
     position: relative;
 }
+
+section.contacts .overlay .contact-info .contact-form .col-sm-6::before {
+    font-family: "Font Awesome 5 fre";
+
+}
