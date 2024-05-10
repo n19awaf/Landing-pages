@@ -461,7 +461,7 @@ section.contacts .overlay .contact-info .contact-form .col-sm-6 {
 }
 
 section.contacts .overlay .contact-info .contact-form .col-sm-6::before {
-    font-family: "Font Awesome 5 free";
+    font-family: "Font Awesome 6 Free";
     position:absolute;
     top: 0;
     right: 0;
@@ -471,6 +471,10 @@ section.contacts .overlay .contact-info .contact-form .col-sm-6::before {
     font-weight: 900;
 }
 
-section.contacts .overlay .contact-info .contact-form .col-sm-6:first-child::before{
-    
+section.contacts .overlay .contact-info .contact-form .col-sm-6:first-child::before {
+    content: "\f007";
+}
+
+section.contacts .overlay .contact-info .contact-form .col-sm-6:nth-child(2)::before {
+    content: "\f0e0";
 }
